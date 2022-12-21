@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+*::before, *::after {
+  box-sizing: border-box;
+}
+
+body {
+  background: #D9F1FF;
+  font-family: "Montserrat", sans-serif;
+}
+
+img {
+  max-width: 100%;
+  border: none;
+  vertical-align: top;
+}
+
+.container {
+  max-width: 1300px;
+  width: calc( 100% - 20px);
+  margin: 0 auto;
+}
+
+header {
+  border-bottom: 4px solid rgba(0, 38, 77, 0.06);
+}
+
+.header-block {
+  display: flex;
+  padding: 32px;
+}
+
+.nav-list {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+.nav-block__link {
+  text-decoration: none;
+}
+
+/*# sourceMappingURL=index.css.map */

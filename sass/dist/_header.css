@@ -1,0 +1,16 @@
+header {
+  border-bottom: 4px solid rgba(0, 38, 77, 0.06);
+}
+
+.header-block {
+  display: flex;
+  padding: 32px;
+}
+
+.nav-list {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+/*# sourceMappingURL=_header.css.map */

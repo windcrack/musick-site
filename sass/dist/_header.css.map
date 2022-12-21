@@ -1,0 +1,1 @@
+{"version":3,"names":[],"mappings":"","sources":["_header.sass"],"sourcesContent":["header\n    border-bottom: 4px solid rgba(0, 38, 77, 0.06)\n\n.header-block\n    display: flex\n    padding: 32px\n\n.nav-list\n    display: flex\n    align-items: center\n    gap: 40px\n"],"file":"_header.css"}
