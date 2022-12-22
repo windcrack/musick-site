@@ -1,1 +1,1 @@
-{"version":3,"names":[],"mappings":"","sources":["_options.sass"],"sourcesContent":["$main-color: #D9F1FF\n$Montserrat: 'Montserrat', sans-serif\n\n$none: none"],"file":"_options.css"}
+{"version":3,"names":[],"mappings":"","sources":["_options.sass"],"sourcesContent":["$main-color: #D9F1FF\n$second-color: #F0FAFF\n$text-color: #00264D\n$blue: #0089F2\n\n\n$anim500: all 0.5s ease-in-out\n\n$Montserrat: 'Montserrat', sans-serif\n\n$none: none"],"file":"_options.css"}

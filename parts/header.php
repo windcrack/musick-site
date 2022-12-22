@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Сайт авторской музыки</title>
-    <link rel="stylesheet" href="sass/dist/index.css">
+    <link rel="stylesheet" href="style/index.css">
     <!-- foonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -25,7 +25,7 @@
         <div class="container header-block">
             <nav class="container nav-list">
                 <div class="nav-block">
-                    <a href="/" class="nav-block__link">Главная</a>
+                    <a href="http://localhost:8888/musick-site/" class="nav-block__link">Главная</a>
                 </div>
                 <div class="nav-block">
                     <a href="#" class="nav-block__link">Песни</a>
@@ -41,7 +41,7 @@
                 </div>
             </nav>
             <div class="header-btn">
-                <button class="btn btn__header" type="button">Написать артисту</button>
+                <a href="#" class="btn btn__header" type="button">Написать артисту</a>
             </div>
         </div>
     </header>

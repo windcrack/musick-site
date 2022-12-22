@@ -1,0 +1,17 @@
+.hero {
+  display: grid;
+  grid-template-columns: 640px 1fr;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.hero-info {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  text-align: right;
+  text-transform: uppercase;
+  margin: 0 0 30px;
+}
+
+/*# sourceMappingURL=_hero.css.map */
