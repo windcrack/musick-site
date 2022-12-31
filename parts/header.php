@@ -39,6 +39,9 @@
                 <div class="nav-block">
                     <a href="#" class="nav-block__link">Контакты</a>
                 </div>
+                <div class="nav-block">
+                    <a href="https://www.youtube.com/" class="nav-block__link">Видео</a>
+                </div>
             </nav>
             <div class="header-btn">
                 <a href="#" class="btn btn__header" type="button">Написать артисту</a>

@@ -64,12 +64,21 @@ header {
 
 .btn__header {
   padding: 0 24px;
+  display: block;
+  text-decoration: none;
 }
 
 .btn__hero {
   padding: 0 87px;
   text-decoration: none;
   display: block;
+  width: fit-content;
+}
+
+.btn__news {
+  padding: 0 19px;
+  display: block;
+  text-decoration: none;
   width: fit-content;
 }
 
@@ -113,6 +122,16 @@ header {
 .hero-info__title h1 {
   font-weight: inherit;
   font-size: inherit;
+}
+
+.last-news .section-title {
+  margin: 0 0 20px;
+}
+
+.section-title {
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 59px;
 }
 
 /*# sourceMappingURL=index.css.map */

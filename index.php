@@ -18,13 +18,76 @@
             </div>
         </section>
         <section class="last-news">
-            <h2 class="section__title">Последние новости</h2>
+            <h2 class="section-title">Последние новости</h2>
             <div class="last-news__controls">
-                <a href="" class="btn">больше новостей</a>
+                <a href="" class="btn btn__news">больше новостей</a>
                 <div class="last-news__controls-btns">
-                    <button class="last-news__prev"></button>
-                    <button class="last-news__next"></button>
+                    <button class="last-news__prev">
+                        <svg width="42" height="42">
+                            <use xlink:href="#arrow-prev"></use>
+                        </svg>
+                    </button>
+                    <button class="last-news__next">
+                        <svg width="42" height="42">
+                            <use xlink:href="#arrow-next"></use>
+                        </svg>
+                    </button>
                 </div>
+            </div>
+            <div class="last-news__slider swiper">
+                <div class="swiper-wrapper">
+                    <a href="#" class="swiper-slide last-news__body">
+                        <div class="news-card">
+                            <img src="img/slider-img/img1.png" alt="Картинка" class="news-card__img">
+                            <h3 class="news-card__title">Название новости</h3>
+                            <time class="news-card__date"><?= date('d:m:y'); ?></time>
+                        </div>
+                    </a>
+                    <a href="#" class="swiper-slide last-news__body">
+                        <div class="news-card">
+                            <img src="img/slider-img/img2.png" alt="Картинка" class="news-card__img">
+                            <h3 class="news-card__title">Название новости</h3>
+                            <time class="news-card__date"><?= date('d:m:y'); ?></time>
+                        </div>
+                    </a>
+                    <a href="#" class="swiper-slide last-news__body">
+                        <div class="news-card">
+                            <img src="img/slider-img/img3.png" alt="Картинка" class="news-card__img">
+                            <h3 class="news-card__title">Название новости</h3>
+                            <time class="news-card__date"><?= date('d:m:y'); ?></time>
+                        </div>
+                    </a>
+                    <a href="#" class="swiper-slide last-news__body">
+                        <div class="news-card">
+                            <img src="img/slider-img/img1.png" alt="Картинка" class="news-card__img">
+                            <h3 class="news-card__title">Название новости</h3>
+                            <time class="news-card__date"><?= date('d:m:y'); ?></time>
+                        </div>
+                    </a>
+                    <a href="#" class="swiper-slide last-news__body">
+                        <div class="news-card">
+                            <img src="img/slider-img/img2.png" alt="Картинка" class="news-card__img">
+                            <h3 class="news-card__title">Название новости</h3>
+                            <time class="news-card__date"><?= date('d:m:y'); ?></time>
+                        </div>
+                    </a>
+                    <a href="#" class="swiper-slide last-news__body">
+                        <div class="news-card">
+                            <img src="img/slider-img/img3.png" alt="Картинка" class="news-card__img">
+                            <h3 class="news-card__title">Название новости</h3>
+                            <time class="news-card__date"><?= date('d:m:y'); ?></time>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </section>
+        <section class="last-video">
+            <h2 class="section-title">Последние видео</h2>
+            <div class="last-video__body">
+                <div class="last-video__block"></div>
+                <div class="last-video__block"></div>
+                <div class="last-video__block"></div>
+                <div class="last-video__block"></div>
             </div>
         </section>
     </main>
