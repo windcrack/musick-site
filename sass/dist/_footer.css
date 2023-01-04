@@ -1,0 +1,34 @@
+.footer {
+  border-top: 4px solid rgba(0, 38, 77, 0.06);
+}
+
+.footer__body {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 26px 0;
+}
+
+.footer__social {
+  display: flex;
+  align-items: center;
+  gap: 58px;
+}
+
+.footer__copy {
+  display: flex;
+  align-items: center;
+  gap: 11px;
+}
+
+.footer__copy-text {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 120%;
+}
+
+.footer__copy-text b {
+  margin: 7px 0 0;
+}
+
+/*# sourceMappingURL=_footer.css.map */

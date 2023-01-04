@@ -1,5 +1,21 @@
 "use strict";
 
+var songsdCards = document.querySelectorAll('.songs-card');
+var playersBlock = document.querySelectorAll('.songs-card__player');
+
+function showPlayer() {
+  songsdCards.forEach(function (elem) {
+    var btn = elem.querySelector('.btn__listen');
+    var player = elem.querySelector('.songs-card__player');
+    elem.addEventListener('click', function (e) {
+      if (e.target === btn) {
+        player.classList.toggle('hide');
+      }
+    });
+  });
+}
+
+showPlayer();
 var sliderMain = new Swiper('.last-news__slider', {
   // loop: true,
   spaceBetween: 24,

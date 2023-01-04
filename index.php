@@ -84,11 +84,23 @@
         <section class="last-video">
             <h2 class="section-title">Последние видео</h2>
             <div class="last-video__body">
-                <div class="last-video__block"></div>
-                <div class="last-video__block"></div>
-                <div class="last-video__block"></div>
-                <div class="last-video__block"></div>
+                <div class="last-video__block">
+                    <iframe width="100%" height="360" src="https://www.youtube.com/embed/FvDKUkLQ5RA" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                </div>
+                <div class="last-video__block">
+                    <iframe width="100%" height="360" src="https://www.youtube.com/embed/ljVVQHS7DHA" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                </div>
+                <div class="last-video__block">
+                <div class="last-video__block">
+                    <iframe width="100%" height="360" src="https://www.youtube.com/embed/2abObzQq6Bk" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                </div>
+                </div>
+                <div class="last-video__block">
+                <div class="last-video__block">
+                    <iframe width="100%" height="360" src="https://www.youtube.com/embed/ktb1y5txHb8" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                </div>
+                </div>
             </div>
         </section>
-    </main>
+
 <?php include_once 'parts/footer.php' ?>

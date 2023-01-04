@@ -25,6 +25,10 @@ img {
   margin: 0 auto;
 }
 
+.hide {
+  display: none !important;
+}
+
 header {
   border-bottom: 4px solid rgba(0, 38, 77, 0.06);
   margin: 0 0 40px;
@@ -80,6 +84,25 @@ header {
   display: block;
   text-decoration: none;
   width: fit-content;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.btn__listen {
+  padding: 0 55px;
+}
+
+.btn__player {
+  display: block;
+  text-decoration: none;
+}
+
+.btn__player-dowload {
+  padding: 0 140px;
+}
+
+.btn__player-text {
+  padding: 0 53px;
 }
 
 .btn:hover {
@@ -124,8 +147,196 @@ header {
   font-size: inherit;
 }
 
+.last-news {
+  margin: 0 0 85px;
+}
+
 .last-news .section-title {
   margin: 0 0 20px;
+}
+
+.last-news__controls {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 0 27px;
+}
+
+.last-news__controls-btns {
+  display: grid;
+  grid-auto-flow: column;
+  gap: 24px;
+}
+
+.last-news__prev, .last-news__next {
+  border-radius: 50%;
+  border: none;
+  cursor: pointer;
+  background: transparent;
+}
+
+.last-news__body {
+  max-width: 213px;
+  min-height: 234px;
+}
+
+.news-card {
+  background: linear-gradient(179.89deg, rgba(0, 0, 0, 0) 0.1%, rgba(15, 18, 19, 0.85) 80.67%);
+  border-radius: 20px;
+  width: 100%;
+  min-height: 234px;
+  color: #fff;
+  position: relative;
+  display: grid;
+  place-content: end;
+  padding: 22px 19px;
+}
+
+.news-card__img {
+  border-radius: 20px;
+  z-index: -1;
+  position: absolute;
+}
+
+.news-card__title {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 120%;
+}
+
+.news-card__date {
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 120%;
+}
+
+.last-video {
+  margin: 0 0 80px;
+}
+
+.last-video .section-title {
+  margin: 0 0 20px;
+}
+
+.last-video__body {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+
+.socials-block {
+  margin: 0 0 100px;
+}
+
+.socials-block .section-title {
+  margin: 0 0 20px;
+}
+
+.socials-block__body {
+  display: flex;
+  gap: 54px;
+}
+
+.socials-block__text {
+  max-width: 533px;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 39px;
+}
+
+.footer {
+  border-top: 4px solid rgba(0, 38, 77, 0.06);
+}
+
+.footer__body {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 26px 0;
+}
+
+.footer__social {
+  display: flex;
+  align-items: center;
+  gap: 58px;
+}
+
+.footer__copy {
+  display: flex;
+  align-items: center;
+  gap: 11px;
+}
+
+.footer__copy-text {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 120%;
+}
+
+.footer__copy-text b {
+  margin: 7px 0 0;
+}
+
+.songs .section-title {
+  margin: 0 0 40px;
+}
+
+.songs-body {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(258px, 1fr));
+  gap: 20px 91px;
+}
+
+.songs-card {
+  border-radius: 16px 16px 0 0;
+  position: relative;
+}
+
+.songs-card__descr {
+  padding: 12px 32px;
+  background: linear-gradient(180deg, rgba(0, 137, 242, 0.4) 0%, rgba(250, 250, 250, 0.08) 100%);
+  border-radius: 0px 0px 32px 32px;
+  border: 1px solid #0089F2;
+}
+
+.songs-card__block-pick {
+  cursor: pointer;
+  position: relative;
+}
+
+.songs-card__block-pick:hover .button-block {
+  display: grid;
+  place-content: center;
+}
+
+.songs-card__title {
+  margin: 0 0 4px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 140%;
+}
+
+.songs-card__subtitle {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 140%;
+}
+
+.songs-card__player {
+  display: grid;
+  position: absolute;
+  top: 0;
+  right: -286px;
+  background: linear-gradient(126.51deg, rgba(0, 0, 136, 0.3) 0%, rgba(0, 137, 242, 0.3) 0.01%, rgba(0, 137, 242, 0.1) 100%);
+  border-radius: 0px 32px 32px 0px;
+  z-index: 2;
+  min-height: 314px;
+}
+
+.button-block {
+  display: none;
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(180deg, rgba(0, 137, 242, 0) 0%, rgba(0, 137, 242, 0.2) 31.18%, rgba(0, 137, 242, 0.2) 100%);
 }
 
 .section-title {
