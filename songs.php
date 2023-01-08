@@ -22,6 +22,7 @@
                 <div class="songs-card__player hide">
                     <div class="player-block">
                         <div class="player-body">
+                            <audio controls src="audio/song1.mp3"></audio>
                             <button class="player-body__volume">
                                 <svg width="14" height="21">
                                     <use xlink:href="#volume"></use>
@@ -59,6 +60,7 @@
                 <div class="songs-card__player hide">
                     <div class="player-block">
                         <div class="player-body">
+                            <audio controls src="audio/song2.mp3"></audio>
                             <button class="player-body__volume">
                                 <svg width="14" height="21">
                                     <use xlink:href="#volume"></use>

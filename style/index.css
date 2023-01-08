@@ -258,6 +258,9 @@ header {
   margin: 7px 0 0;
 }
 
+.songs {
+  margin: 0 0 80px;
+}
 .songs .section-title {
   margin: 0 0 40px;
 }
@@ -322,6 +325,9 @@ header {
           backdrop-filter: blur(7.5px);
   border-radius: 16px;
   margin: 0 0 18px;
+}
+.player-block audio {
+  display: none;
 }
 .player-block .line {
   width: 100%;
