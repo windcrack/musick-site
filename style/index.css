@@ -330,9 +330,9 @@ header {
   display: none;
 }
 .player-block .line {
-  width: 100%;
   background: #0089F2;
   height: 4px;
+  border-radius: 5px;
 }
 
 .player-body {
@@ -344,6 +344,7 @@ header {
 }
 .player-body__time-line {
   margin: 0 34px;
+  cursor: pointer;
 }
 .player-body__volume, .player-body__play {
   background: transparent;

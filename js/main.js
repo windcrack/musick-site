@@ -55,13 +55,26 @@ function playerVolume(player){
     player.volume = 0.5;
 }
 
+function updateProgtess(e, progress){
+    // console.log(e.target);
+    const {duration, currentTime} = e.target;
+    //console.log([duration, currentTime]);
+
+    const progPercent = (currentTime / duration) * 100;
+    progress.style.width = `${progPercent}%`
+}
+
+function setProgress(e, player){
+    
+}
+
 
 songsdCards.forEach(elem =>{
     const player = elem.querySelector('.player-block audio');
     const closePlayer = elem.querySelector('.btn__listen');
     const playerBtnPlay = elem.querySelector('.player-body__play');
     const playerBtnVol = elem.querySelector('.player-body__volume');
-    const playerTimeLint = elem.querySelector('.player-body__time-line');
+    const playerTimeLine = elem.querySelector('.player-body__time-line');
     const playerLine = elem.querySelector('.line');
     const changerBtnIcon = elem.querySelector('.player-body__play use');
     
@@ -80,6 +93,18 @@ songsdCards.forEach(elem =>{
 
     closePlayer.addEventListener('click', () =>{
         playerPause(playerBtnPlay, changerBtnIcon, player);
+    })
+    
+    player.addEventListener('timeupdate', (e) =>{
+        updateProgtess(e, playerLine);
+    })
+
+    playerTimeLine.addEventListener('click', function(e) {
+        const width = this.clientWidth;
+        const clickX = e.offsetX;
+        const dur = player.duration;
+
+        player.currentTime = (clickX / width) * dur;
     })
 })
 
