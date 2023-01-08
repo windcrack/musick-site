@@ -22,13 +22,23 @@
                 <div class="songs-card__player hide">
                     <div class="player-block">
                         <div class="player-body">
-                            <button class="player-body__volume"></button>
-                            <div class="player-body__time-line"></div>
-                            <button class="player-body__play"></button>
+                            <button class="player-body__volume">
+                                <svg width="14" height="21">
+                                    <use xlink:href="#volume"></use>
+                                </svg>
+                            </button>
+                            <div class="player-body__time-line">
+                                <div class="line"></div>
+                            </div>
+                            <button class="player-body__play">
+                                <svg width="44" height="43">
+                                    <use xlink:href="#play"></use>
+                                </svg>
+                            </button>
                         </div>
                     </div>
-                    <a href="#" class="btn btn__payer btn__payer-download">Скачать</a>
-                    <a href="#" class="btn btn__payer btn__payer-text">Посмотреть текст песни</a>
+                    <a href="#" class="btn btn__player btn__player-download">Скачать</a>
+                    <a href="#" class="btn btn__player btn__player-text">Посмотреть текст песни</a>
                 </div>
             </div>
             <div class="songs-card">
@@ -49,9 +59,19 @@
                 <div class="songs-card__player hide">
                     <div class="player-block">
                         <div class="player-body">
-                            <button class="player-body__volume"></button>
-                            <div class="player-body__time-line"></div>
-                            <button class="player-body__play"></button>
+                            <button class="player-body__volume">
+                                <svg width="14" height="21">
+                                    <use xlink:href="#volume"></use>
+                                </svg>
+                            </button>
+                            <div class="player-body__time-line">
+                                <div class="line"></div>
+                            </div>
+                            <button class="player-body__play">
+                                <svg width="44" height="43">
+                                    <use xlink:href="#play"></use>
+                                </svg>
+                            </button>
                         </div>
                     </div>
                     <a class="btn btn__player btn__player-download">Скачать</a>

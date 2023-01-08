@@ -56,3 +56,24 @@
     backdrop-filter: blur(7.5px)
     border-radius: 16px
     margin: 0 0 18px
+
+    .line
+        width: 100%
+        background: $blue
+        height: 4px
+
+.player-body
+    display: grid
+    // grid-template-columns: repeat(3, 1fr)
+    grid-template-columns: 13px 1fr 43px
+    align-items: center
+    height: 100%
+    padding: 16px 17px 16px 32px
+
+    &__time-line
+        margin: 0 34px
+
+    &__volume, &__play
+        background: transparent
+        border: none
+        cursor: pointer

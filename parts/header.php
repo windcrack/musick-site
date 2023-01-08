@@ -25,7 +25,7 @@
         <div class="container header-block">
             <nav class="container nav-list">
                 <div class="nav-block">
-                    <a href="http://localhost:8888/musick-site/" class="nav-block__link">Главная</a>
+                    <a href="http://localhost/musick-site/" class="nav-block__link">Главная</a>
                 </div>
                 <div class="nav-block">
                     <a href="songs.php" class="nav-block__link">Песни</a>
