@@ -46,3 +46,33 @@
     &:hover
         background: $blue
         color: $second-color
+    &__accord
+        background: linear-gradient(90deg, #0069BF 0%, #40B2FF 100%)
+        border-radius: 21.5px
+        position: relative
+        display: grid
+        transition: all .5s
+        padding: 0 20px
+        height: fit-content
+
+        &::after
+            content: ""
+            background: linear-gradient(90deg, #0069BF 0%, #40B2FF 100%)
+            filter: blur(10px)
+            position: absolute
+            border-radius: 21.5px
+            left: 50%
+            transform: translateX(-50%)
+            bottom: -7px
+            display: block
+            width: 90%
+            height: 26px
+            z-index: -1
+            margin: auto
+            
+
+        &:hover
+            background: linear-gradient(90deg, #40B2FF 0%, #0069BF 100%)
+            
+            &::after
+                background: linear-gradient(90deg, #40B2FF 0%, #0069BF 100%)

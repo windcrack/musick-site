@@ -113,6 +113,38 @@ header {
   background: #0089F2;
   color: #F0FAFF;
 }
+.btn__accord {
+  background: linear-gradient(90deg, #0069BF 0%, #40B2FF 100%);
+  border-radius: 21.5px;
+  position: relative;
+  display: grid;
+  transition: all 0.5s;
+  padding: 0 20px;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+}
+.btn__accord::after {
+  content: "";
+  background: linear-gradient(90deg, #0069BF 0%, #40B2FF 100%);
+  filter: blur(10px);
+  position: absolute;
+  border-radius: 21.5px;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: -7px;
+  display: block;
+  width: 90%;
+  height: 26px;
+  z-index: -1;
+  margin: auto;
+}
+.btn__accord:hover {
+  background: linear-gradient(90deg, #40B2FF 0%, #0069BF 100%);
+}
+.btn__accord:hover::after {
+  background: linear-gradient(90deg, #40B2FF 0%, #0069BF 100%);
+}
 
 .hero {
   display: grid;
@@ -350,6 +382,45 @@ header {
   background: transparent;
   border: none;
   cursor: pointer;
+}
+
+.accords .section-title {
+  margin: 0 0 40px;
+}
+.accords-nav {
+  background: linear-gradient(180deg, #F0FAFF 0%, rgba(240, 250, 255, 0.515625) 47.75%, #F0FAFF 92.71%);
+  display: grid;
+  grid-row: 16px;
+  justify-content: center;
+  padding: 15px 0;
+  justify-self: start;
+  min-width: 310px;
+  grid-row: 1/span 2;
+}
+.accords__body {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(630px, auto));
+  gap: 50px 20px;
+}
+
+.accord {
+  display: grid;
+  row-gap: 9px;
+  padding: 10px 67.5px 50px 67.5px;
+  background: linear-gradient(120.41deg, rgba(0, 137, 242, 0.35) 0%, rgba(166, 221, 255, 0.1) 100%);
+}
+.accord__title * {
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 59px;
+}
+.accord__text {
+  max-width: 505px;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  text-align: justify;
+  white-space: pre;
 }
 
 .section-title {

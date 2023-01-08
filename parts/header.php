@@ -25,13 +25,13 @@
         <div class="container header-block">
             <nav class="container nav-list">
                 <div class="nav-block">
-                    <a href="http://localhost/musick-site/" class="nav-block__link">Главная</a>
+                    <a href="index.php" class="nav-block__link">Главная</a>
                 </div>
                 <div class="nav-block">
                     <a href="songs.php" class="nav-block__link">Песни</a>
                 </div>
                 <div class="nav-block">
-                    <a href="#" class="nav-block__link">Аккорды песен</a>
+                    <a href="accords.php" class="nav-block__link">Аккорды песен</a>
                 </div>
                 <div class="nav-block">
                     <a href="#" class="nav-block__link">Галерея</a>

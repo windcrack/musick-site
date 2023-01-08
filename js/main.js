@@ -38,12 +38,15 @@ const sliderMain = new Swiper('.last-news__slider', {
 
 // Player
 
+// Функция проигрывания
+
 function playerPlay (btn, changerBtnIcon, player){
-    
     btn.classList.add('play');
     changerBtnIcon.setAttribute('xlink:href', '#pause')
     player.play();
 }
+
+// Функция паузы
 
 function playerPause(btn, changerBtnIcon, player){
     btn.classList.remove('play');
@@ -51,23 +54,24 @@ function playerPause(btn, changerBtnIcon, player){
     player.pause();  
 }
 
+// Функиця управления звуком
+
 function playerVolume(player){
     player.volume = 0.5;
 }
 
-function updateProgtess(e, progress){
-    // console.log(e.target);
-    const {duration, currentTime} = e.target;
-    //console.log([duration, currentTime]);
+// Функция обновления полоски прокрутки
 
+function updateProgtess(e, progress, changerBtnIcon){
+    const {duration, currentTime} = e.target;
     const progPercent = (currentTime / duration) * 100;
     progress.style.width = `${progPercent}%`
+    if(duration === currentTime){
+        changerBtnIcon.setAttribute('xlink:href', '#play');
+    }
 }
 
-function setProgress(e, player){
-    
-}
-
+// Перебор всех карточек для получения в каждой плеера
 
 songsdCards.forEach(elem =>{
     const player = elem.querySelector('.player-block audio');
@@ -96,14 +100,13 @@ songsdCards.forEach(elem =>{
     })
     
     player.addEventListener('timeupdate', (e) =>{
-        updateProgtess(e, playerLine);
+        updateProgtess(e, playerLine, changerBtnIcon);
     })
 
     playerTimeLine.addEventListener('click', function(e) {
         const width = this.clientWidth;
         const clickX = e.offsetX;
         const dur = player.duration;
-
         player.currentTime = (clickX / width) * dur;
     })
 })
