@@ -1,0 +1,73 @@
+.galery
+    .section-title
+        margin: 0 0 40px
+    &-new
+        margin: 0 0 59px
+        &__list
+            list-style: none
+            display: grid
+            gap: 26px
+            grid-template-columns: repeat(5, 1fr)
+            grid-auto-rows: minmax(312px, 1fr)
+        &__block
+            position: relative
+            padding: 8px
+            display: grid
+            align-items: start
+            z-index: 2
+            border-radius: 10px
+            text-decoration: none
+            color: inherit
+
+            &::before
+                content: ""
+                background: linear-gradient(180deg, rgba(196, 196, 196, 0.1) 0%, rgba(166, 221, 255, 0.1) 0.01%, #A6DDFF 100%)
+                width: 100%
+                min-height: 312px
+                display: block
+                position: absolute
+                inset: 0
+
+        &__img
+            position: absolute
+            inset: 0
+            width: 100%
+            height: fit-content
+            z-index: 1
+
+        &__title
+            max-width: 222px
+            min-height: 71px
+            padding: 13px 12px 14px
+            font-weight: 400
+            font-size: 14px
+            line-height: 22px
+            letter-spacing: -0.015em
+            background: $main-color
+            position: relative
+            z-index: 2
+            border-radius: 10px
+
+    &-news
+        &__body
+            display: grid
+            gap: 20px
+            grid-auto-rows: 562px
+            
+        &__row
+            display: flex
+            column-gap: 20px
+            flex-wrap: wrap
+
+            &:nth-of-type(even)
+                flex-direction: row-reverse
+                
+        &__block
+            
+            &_large
+                flex-basis: 844px
+            &_small
+                flex-basis: 430px
+
+        &__img
+            //width: 100%

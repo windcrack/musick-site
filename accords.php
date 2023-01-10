@@ -125,6 +125,7 @@ Dm                    Am             Dm         Am     E
                 <button class="btn btn__accord">Больше</button>
             </div>
         </div>
+        <button class="btn btn__accord btn__accord_more">Больше</button>
     </section>
 
 <?php include_once 'parts/footer.php' ?>

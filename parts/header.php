@@ -34,7 +34,7 @@
                     <a href="accords.php" class="nav-block__link">Аккорды песен</a>
                 </div>
                 <div class="nav-block">
-                    <a href="#" class="nav-block__link">Галерея</a>
+                    <a href="galery.php" class="nav-block__link">Галерея</a>
                 </div>
                 <div class="nav-block">
                     <a href="#" class="nav-block__link">Контакты</a>
