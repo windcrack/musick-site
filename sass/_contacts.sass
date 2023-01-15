@@ -1,0 +1,100 @@
+.contact
+    display: grid
+    margin: 0 0 65px
+
+    .section-title
+        margin: 0 0 84px
+
+    &-text
+        text-align: center
+        max-width: 640px
+        margin: 0 auto 22px
+        &__title
+            font-weight: 700
+            font-size: 40px
+            line-height: 49px
+            margin: 0 0 22px
+        &__subtitle
+            font-weight: 500
+            font-size: 24px
+            line-height: 29px
+
+    &-how
+        font-weight: 500
+        font-size: 40px
+        line-height: 49px
+        text-align: center
+        text-decoration-line: underline
+        display: grid
+        margin: 0 auto 44px
+
+        a
+            color: inherit
+            font-size: inherit
+
+    &-form
+        max-width: 594px
+        padding: 35px 48px 22px 40px
+        background: linear-gradient(36.96deg, rgba(255, 255, 255, 0.35) 0.78%, #A6DDFF 66.77%)
+        box-shadow: 0px 5px 4px rgba(0, 0, 0, 0.25)
+        border-radius: 20px
+        margin: 0 auto
+
+        &__social
+            display: flex
+            gap: 29px
+            align-items: center
+
+            &-text
+                font-weight: 200
+                font-size: 24px
+                line-height: 29px
+            &-list
+                display: flex
+                list-style: none
+                gap: 24px
+
+                img
+                    width: 45px
+                    height: 45px
+
+
+.form
+    display: grid
+
+    &-title
+        font-weight: 700
+        font-size: 36px
+        line-height: 44px
+        margin: 0 0 31px
+
+    &-body
+        
+        width: 100%
+        display: flex
+        flex-flow: column
+        margin: 0 0 18px
+
+    &-block
+        margin: 0 0 29px
+        width: 506px
+        //width: 100%
+
+        &__input
+            
+            font-weight: 400
+            font-size: 24px
+            line-height: 29px
+            border: none
+            background: $no-bg
+            border-bottom: 1px solid $black
+            padding: 7px 0
+            width: 100%
+
+            &_area
+                resize: none
+                min-height: 195px
+                padding: 12px 6px
+            &::placeholder
+                color: rgba(3, 14, 34, 0.5)
+    

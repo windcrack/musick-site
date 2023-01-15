@@ -7,7 +7,7 @@
             <h2 class="section-title">Новое на сайте</h2>
             <ul class="galery-new__list">
                 <li class="galery-new__item">
-                    <a class="galery-new__block">
+                    <a href="#" class="galery-new__block">
                         <img src="img/galery/notes.png" alt="" class="galery-new__img">
                         <div class="galery-new__title">Nemo enim ipsam voluptatem quia voluptas</div>
                     </a>
@@ -41,14 +41,14 @@
         <section class="galery-news">
             <div class="galery-news__body">
                 <div class="galery-news__row">
-                    <a href="#" class="galery-news__block galery-news__block_large">
+                    <a href="news-template.php" class="galery-news__block galery-news__block_large">
                         <img src="img/galery/img1.jpg" alt="" class="galery-news__img">
                         <div class="galery-news__text">
                             <div class="galery-news__text-title">Lorem ipsum dolor sit.</div>
                             <time class="galery-news__text-date"><?= date("d.m.Y"); ?></time>
                         </div>
                     </a>
-                    <a href="#" class="galery-news__block galery-news__block_smal">
+                    <a href="news-template.php" class="galery-news__block galery-news__block_smal">
                         <img src="img/galery/img2.jpg" alt="" class="galery-news__img">
                         <div class="galery-news__text">
                             <div class="galery-news__text-title">Lorem ipsum dolor sit.</div>
@@ -57,14 +57,14 @@
                     </a>
                 </div>
                 <div class="galery-news__row">
-                    <a href="#" class="galery-news__block galery-news__block">
+                    <a href="news-template.php" class="galery-news__block galery-news__block">
                         <img src="img/galery/img4.jpg" alt="" class="galery-news__img">
                         <div class="galery-news__text">
                             <div class="galery-news__text-title">Lorem ipsum dolor sit.</div>
                             <time class="galery-news__text-date"><?= date("d.m.Y"); ?></time>
                         </div>
                     </a>
-                    <a href="#" class="galery-news__block galery-news__block">
+                    <a href="news-template.php" class="galery-news__block galery-news__block">
                         <img src="img/galery/img3.jpg" alt="" class="galery-news__img">
                         <div class="galery-news__text">
                             <div class="galery-news__text-title">Lorem ipsum dolor sit.</div>

@@ -13,7 +13,7 @@
                     <h1>Цена вопроса не важна, когда чистый разум не скован границами!</h1>
                 </div>
                 <div class="hero-info__btn">
-                    <a href="#" class="btn btn__hero">Перейти к песням</a>
+                    <a href="songs.php" class="btn btn__hero">Перейти к песням</a>
                 </div>
             </div>
         </section>

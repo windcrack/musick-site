@@ -25,7 +25,7 @@
         <div class="container header-block">
             <nav class="container nav-list">
                 <div class="nav-block">
-                    <a href="index.php" class="nav-block__link">Главная</a>
+                    <a href="index.php" class="nav-block__link nav-block__link_active">Главная</a>
                 </div>
                 <div class="nav-block">
                     <a href="songs.php" class="nav-block__link">Песни</a>
@@ -37,14 +37,14 @@
                     <a href="galery.php" class="nav-block__link">Галерея</a>
                 </div>
                 <div class="nav-block">
-                    <a href="#" class="nav-block__link">Контакты</a>
+                    <a href="contacts.php" class="nav-block__link">Контакты</a>
                 </div>
                 <div class="nav-block">
                     <a href="https://www.youtube.com/" class="nav-block__link">Видео</a>
                 </div>
             </nav>
             <div class="header-btn">
-                <a href="#" class="btn btn__header" type="button">Написать артисту</a>
+                <a href="contacts.php#form" class="btn btn__header" type="button">Написать артисту</a>
             </div>
         </div>
     </header>

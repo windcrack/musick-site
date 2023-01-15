@@ -4,6 +4,9 @@
     margin: 0
     padding: 0
     box-sizing: border-box
+    font-style: normal
+    scroll-behavior: smooth
+    font-feature-settings: 'pnum' on, 'lnum' on
 
     &::before, &::after
         box-sizing: border-box
@@ -25,7 +28,20 @@ img
 .hide
     display: none !important
 
-@import header, button, hero, footer, sounds, accords, galary
+.typo
+    color: $black
+    p
+        font-weight: 400 
+        font-size: 14px 
+        line-height: 25px
+        margin: 0 0 2rem
+    img
+        border-radius: 5px
+        object-fit: cover
+        height: 334px
+        width: 100%
+
+@import header, button, hero, footer, sounds, accords, galary, contacts, news-template
 
 
 .section-title
