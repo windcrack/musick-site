@@ -6,7 +6,9 @@
         
         <div class="accords__body">
             <aside class="accords-nav">
-                <button class="btn btn__accord">Буква за буквой...</button>
+                <div class="accords-nav__wrapp">
+                    <button class="btn btn__accord">Буква за буквой...</button>
+                </div>
             </aside>
             <div class="accords__block accord">
                 <div class="accord__title">

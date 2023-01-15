@@ -1,10 +1,8 @@
 const songsdCards = document.querySelectorAll('.songs-card');
-
 const playersBlock = document.querySelectorAll('.songs-card__player');
-
-
-
-//console.log(changerBtnIcon);
+const navLink = document.querySelectorAll('.nav-block');
+const mobMenuLists = document.querySelector('.nav-list_mob');
+const btnBurger = document.querySelector('.btn__burger');
 
 //let songs = ["song1.mp3", "song2.mp3", "song3.mp3"]
 
@@ -12,18 +10,47 @@ function showPlayer (){
     songsdCards.forEach(elem =>{
         const btn = elem.querySelector('.btn__listen');
         const player = elem.querySelector('.songs-card__player');
-        const playerStop = elem.querySelector('.player-block audio')
+    
         elem.addEventListener('click', (e) => {
             
-            if(e.target === btn){
+            if(! e.composedPath().includes(btn)){
                 //playerPause();
-                player.classList.toggle('hide')
+                player.classList.add('hide')
+            }else{
+                player.classList.toggle('hide');
             }
         })
     })
 }
 
 showPlayer();
+
+function showMenuMobile(btn, block){
+    document.addEventListener('click', (e) =>{
+        if(! e.composedPath().includes(btn)){
+            block.classList.remove('grid');
+        }else{
+            block.classList.toggle('grid');
+        }
+        
+    })
+}
+
+showMenuMobile(btnBurger, mobMenuLists)
+
+function moveItems(navTopItems, mobMenuLists) {
+    if(navTopItems !== null){
+        navTopItems.forEach((el, ind) => {
+            if (window.matchMedia("(max-width: 850px)").matches) {
+                if (ind >= 0) {
+                    mobMenuLists.append(el);
+                }
+            }
+        });
+    }
+}
+
+moveItems(navLink, mobMenuLists)
 
 
 const sliderMain = new Swiper('.last-news__slider', {
@@ -34,6 +61,15 @@ const sliderMain = new Swiper('.last-news__slider', {
         nextEl: '.last-news__next',
         prevEl: '.last-news__prev',
     },
+
+    breakpoints:{
+        320: {
+            slidesPerView: 1.5,
+        },
+        850: {
+            slidesPerView: 5.5,
+        }
+    }
 })
 
 // Player

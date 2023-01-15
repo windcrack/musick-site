@@ -43,6 +43,10 @@
                     <a href="https://www.youtube.com/" class="nav-block__link">Видео</a>
                 </div>
             </nav>
+            <button class="btn btn__burger">
+                <span></span>
+            </button>
+            <nav class="nav-list_mob"></nav>
             <div class="header-btn">
                 <a href="contacts.php#form" class="btn btn__header" type="button">Написать артисту</a>
             </div>

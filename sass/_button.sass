@@ -43,7 +43,7 @@
             margin: 0 0 26px
         &-text
             padding: 0 53px
-    &:hover
+    &:not(&__burger):hover
         background: $blue
         color: $second-color
     &__accord
@@ -54,6 +54,8 @@
         transition: all .5s
         padding: 0 20px
         height: fit-content
+
+        margin: 0 0 16px
 
         &::after
             content: ""
@@ -95,3 +97,17 @@
         padding: 0 52px
 
         margin: 0 auto 106px
+
+    &__burger
+        display: none
+        background: $no-bg
+        &:after, &:before, span
+            background: $black
+            content: ""
+            display: block
+            height: 3px
+            border-radius: 3px
+            margin: 7px 0
+            width: 35px
+
+            border-radius: 3px
