@@ -954,6 +954,7 @@ header {
   }
   .contact-form {
     padding: 10px;
+    width: 100%;
   }
   .contact-form__social-text {
     display: none;
