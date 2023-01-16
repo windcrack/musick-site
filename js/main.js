@@ -72,6 +72,21 @@ const sliderMain = new Swiper('.last-news__slider', {
     }
 })
 
+const sliderNew = new Swiper('.galery-new__body', {
+    loop: true,
+    slidesPerView: 5,
+    spaceBetween: 26,
+
+    breakpoints:{
+        320: {
+            slidesPerView: 1.5,
+        },
+        850: {
+            slidesPerView: 5,
+        }
+    }
+})
+
 // Player
 
 // Функция проигрывания

@@ -5,38 +5,40 @@
         <h1 class="section-title">Галерея</h1>
         <section class="galery-new">
             <h2 class="section-title">Новое на сайте</h2>
-            <ul class="galery-new__list">
-                <li class="galery-new__item">
-                    <a href="#" class="galery-new__block">
-                        <img src="img/galery/notes.png" alt="" class="galery-new__img">
-                        <div class="galery-new__title">Nemo enim ipsam voluptatem quia voluptas</div>
-                    </a>
-                </li>
-                <li class="galery-new__item">
-                    <a href="#" class="galery-new__block">
-                        <img src="img/galery/notes.png" alt="" class="galery-new__img">
-                        <div class="galery-new__title">Nemo enim ipsam voluptatem quia voluptas</div>
-                    </a>
-                </li>
-                <li class="galery-new__item">
-                    <a href="#" class="galery-new__block">
-                        <img src="img/galery/notes.png" alt="" class="galery-new__img">
-                        <div class="galery-new__title">Nemo enim ipsam voluptatem quia voluptas</div>
-                    </a>
-                </li>
-                <li class="galery-new__item">
-                    <a href="#" class="galery-new__block">
-                        <img src="img/galery/notes.png" alt="" class="galery-new__img">
-                        <div class="galery-new__title">Nemo enim ipsam voluptatem quia voluptas</div>
-                    </a>
-                </li>
-                <li class="galery-new__item">
-                    <a href="#" class="galery-new__block">
-                        <img src="img/galery/notes.png" alt="" class="galery-new__img">
-                        <div class="galery-new__title">Nemo enim ipsam voluptatem quia voluptas</div>
-                    </a>
-                </li>
-            </ul>
+            <div class="galery-new__body swiper">
+                <ul class="galery-new__list swiper-wrapper">
+                    <li class="galery-new__item swiper-slide">
+                        <a href="#" class="galery-new__block">
+                            <img src="img/galery/notes.png" alt="" class="galery-new__img">
+                            <div class="galery-new__title">Nemo enim ipsam voluptatem quia voluptas</div>
+                        </a>
+                    </li>
+                    <li class="galery-new__item swiper-slide">
+                        <a href="#" class="galery-new__block">
+                            <img src="img/galery/notes.png" alt="" class="galery-new__img">
+                            <div class="galery-new__title">Nemo enim ipsam voluptatem quia voluptas</div>
+                        </a>
+                    </li>
+                    <li class="galery-new__item swiper-slide">
+                        <a href="#" class="galery-new__block">
+                            <img src="img/galery/notes.png" alt="" class="galery-new__img">
+                            <div class="galery-new__title">Nemo enim ipsam voluptatem quia voluptas</div>
+                        </a>
+                    </li>
+                    <li class="galery-new__item swiper-slide">
+                        <a href="#" class="galery-new__block">
+                            <img src="img/galery/notes.png" alt="" class="galery-new__img">
+                            <div class="galery-new__title">Nemo enim ipsam voluptatem quia voluptas</div>
+                        </a>
+                    </li>
+                    <li class="galery-new__item swiper-slide">
+                        <a href="#" class="galery-new__block">
+                            <img src="img/galery/notes.png" alt="" class="galery-new__img">
+                            <div class="galery-new__title">Nemo enim ipsam voluptatem quia voluptas</div>
+                        </a>
+                    </li>
+                </ul>
+            </div>
         </section>
         <section class="galery-news">
             <div class="galery-news__body">
