@@ -1,3 +1,11 @@
+.hide-sound
+    display: none !important 
+
+.songs-border-16
+    border-radius: 16px 0 0 0 !important
+
+.songs-border-32
+    border-radius: 0 0 0 32px !important
 .songs
     margin: 0 0 80px
     .section-title
@@ -5,10 +13,12 @@
     &-body
         display: grid
         grid-template-columns: repeat(4, minmax(258px, 1fr))
+        grid-auto-rows: 328px
         gap: 20px 91px
     &-card
         border-radius: 16px 16px 0 0
         position: relative
+        display: grid
 
         &__descr
             padding: 12px 32px
@@ -32,17 +42,19 @@
             font-weight: 400
             font-size: 14px
             line-height: 140%
+
         &__player
             display: grid
             min-width: 387px
             position: absolute
             top: 0
             right: -387px
-            background: linear-gradient(126.51deg, rgba(0, 0, 136, 0.3) 0%, rgba(0, 137, 242, 0.3) 0.01%, rgba(0, 137, 242, 0.1) 100%)
+            background: linear-gradient(126.51deg, rgba(0, 0, 136, 0.3) 0%, #0089F2 0.01%, rgba(0, 137, 242, 0.5) 100%)
             border-radius: 0px 32px 32px 0px
             z-index: 2
-            min-height: 314px
+            min-height: 328px
             padding: 46px 12px 63px 14px
+            
             
 
 .button-block
@@ -64,7 +76,7 @@
 
     .line
         background: $blue
-        height: 4px
+        height: 8px
         border-radius: 5px
 
 .player-body
@@ -78,6 +90,8 @@
     &__time-line
         margin: 0 34px
         cursor: pointer
+        border: 0.5px solid $white
+        border-radius: 5px
 
     &__volume, &__play
         background: transparent

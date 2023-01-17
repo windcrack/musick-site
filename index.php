@@ -20,7 +20,7 @@
         <section class="last-news">
             <h2 class="section-title">Последние новости</h2>
             <div class="last-news__controls">
-                <a href="" class="btn btn__news">больше новостей</a>
+                <a href="galery.php" class="btn btn__news">больше новостей</a>
                 <div class="last-news__controls-btns">
                     <button class="last-news__prev">
                         <svg width="42" height="42">

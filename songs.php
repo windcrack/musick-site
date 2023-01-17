@@ -19,7 +19,7 @@
                         <p>Blackpink</p>
                     </div>
                 </div>
-                <div class="songs-card__player hide">
+                <div class="songs-card__player hide-sound">
                     <div class="player-block">
                         <div class="player-body">
                             <audio controls src="audio/song1.mp3"></audio>
@@ -57,7 +57,7 @@
                         <p>Blackpink</p>
                     </div>
                 </div>
-                <div class="songs-card__player hide">
+                <div class="songs-card__player hide-sound">
                     <div class="player-block">
                         <div class="player-body">
                             <audio controls src="audio/song2.mp3"></audio>
@@ -95,7 +95,7 @@
                         <p>Blackpink</p>
                     </div>
                 </div>
-                <div class="songs-card__player hide">
+                <div class="songs-card__player hide-sound">
                     <div class="player-block">
                         <div class="player-body">
                             <audio controls src="audio/song3.mp3"></audio>

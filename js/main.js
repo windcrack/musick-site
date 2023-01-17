@@ -10,18 +10,40 @@ function showPlayer (){
     songsdCards.forEach(elem =>{
         const btn = elem.querySelector('.btn__listen');
         const player = elem.querySelector('.songs-card__player');
+        const descr = elem.querySelector('.songs-card__descr')
     
-        elem.addEventListener('click', (e) => {
+        btn.addEventListener('click', (e) => {
             
-            if(! e.composedPath().includes(btn)){
-                //playerPause();
-                player.classList.add('hide')
-            }else{
-                player.classList.toggle('hide');
-            }
+            player.classList.toggle('hide-sound');
+            descr.classList.toggle('songs-border-32');
+
+            // elem.classList.toggle('hide-sound');
+            // descr.classList.toggle('songs-border-32');
+
+            // if(window.matchMedia("(max-width: 850px)").matches){
+            //     player.classList.remove('hide')
+            // }
+
+            
         })
+
+        // document.addEventListener('click', (e)=>{
+        
+        //     if(!e.composedPath().includes(player)){
+        //         player.classList.add('hide-sound');
+        //     }
+        // })
+        
     })
 }
+
+function hidePlayerClickNone(elem){
+    console.log('click');
+    
+    
+}
+
+
 
 showPlayer();
 
