@@ -16,23 +16,8 @@ function showPlayer (){
             
             player.classList.toggle('hide-sound');
             descr.classList.toggle('songs-border-32');
-
-            // elem.classList.toggle('hide-sound');
-            // descr.classList.toggle('songs-border-32');
-
-            // if(window.matchMedia("(max-width: 850px)").matches){
-            //     player.classList.remove('hide')
-            // }
-
             
         })
-
-        // document.addEventListener('click', (e)=>{
-        
-        //     if(!e.composedPath().includes(player)){
-        //         player.classList.add('hide-sound');
-        //     }
-        // })
         
     })
 }
